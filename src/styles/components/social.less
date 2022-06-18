@@ -1,0 +1,25 @@
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, 24px);
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__link {
+        display: block;
+        color: @color-neutral-dark;
+
+        &:hover,
+        &:focus {
+            color: @color-primary-cyan;
+        }
+    }
+
+    &__icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+    }
+}
