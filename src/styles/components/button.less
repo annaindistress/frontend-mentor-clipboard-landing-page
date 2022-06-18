@@ -1,0 +1,42 @@
+.button {
+    display: inline-block;
+    width: 100%;
+    max-width: 310px;
+    padding: 13px 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: .5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 28px;
+
+    &--ios {
+        background-color: @color-primary-cyan;
+        box-shadow: @shadow-primary-cyan, @shadow-inner;
+
+        &:hover,
+        &:focus {
+            background-color: fadeout(@color-primary-cyan, 25%);
+        }
+    }
+
+    &--mac {
+        background-color: @color-primary-blue;
+        box-shadow: @shadow-primary-blue, @shadow-inner;
+
+        &:hover,
+        &:focus {
+            background-color: fadeout(@color-primary-blue, 25%);
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .button {
+        max-width: 230px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
