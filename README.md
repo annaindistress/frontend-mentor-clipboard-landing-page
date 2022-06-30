@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/annaindistress/clipboard-landing-page)
-- [Live Site URL](https://annaindistress.github.io/clipboard-landing-page/)
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-clipboard-landing-page)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-clipboard-landing-page/)
 
 ## My process
 
